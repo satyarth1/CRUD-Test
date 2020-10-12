@@ -1,0 +1,38 @@
+{
+  "name": "crud-test",
+  "version": "0.1.0",
+  "description": "crud test backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/boot/www.boot.js",
+    "setup": "node ./src/boot/setup.boot.js",
+    "eslint": "node_modules/.bin/eslint",
+    "lint": "npm run eslint src",
+    "lintf": "npm run eslint src -- --fix"
+  },
+  "author": "Satyarth sharma <satyarthsharma.3@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "fs-extra": "^9.0.0",
+    "glob": "^7.1.6",
+    "http-errors": "^1.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.12.0",
+    "koa-body": "^4.1.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "koa2-ratelimit": "^0.9.0",
+    "mongoose": "^5.9.14",
+    "que-it": "^0.2.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}

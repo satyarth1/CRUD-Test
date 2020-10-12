@@ -1,0 +1,24 @@
+# IDE
+.vscode
+.idea
+
+# log
+/logs
+*.log
+*.0x
+
+# modules
+node_modules
+
+# others
+.temp
+exp
+
+# config
+.env
+
+# dist
+dist
+
+# apps module config
+apps.config.js
